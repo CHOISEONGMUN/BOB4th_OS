@@ -1,0 +1,21 @@
+﻿빌드 시작: 2015-07-21 오후 12:00:18
+     1>2 노드의 "D:\OS_SharedMemoryExam\OS_SharedMemoryExam\OS_SharedMemoryExam.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OS_SharedMemoryExam.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OS_SharedMemoryExam.cpp
+         OS_SharedMemoryExam.cpp
+     1>d:\os_sharedmemoryexam\os_sharedmemoryexam\os_sharedmemoryexam.cpp(73): warning C4244: '초기화 중' : 'LONGLONG'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\os_sharedmemoryexam\os_sharedmemoryexam\os_sharedmemoryexam.cpp(76): warning C4244: '인수' : 'LONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\os_sharedmemoryexam\os_sharedmemoryexam\os_sharedmemoryexam.cpp(77): warning C4244: '인수' : 'LONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\os_sharedmemoryexam\os_sharedmemoryexam\os_sharedmemoryexam.cpp(81): warning C4244: '인수' : 'LONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\os_sharedmemoryexam\os_sharedmemoryexam\os_sharedmemoryexam.cpp(82): warning C4244: '인수' : 'LONGLONG'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OS_SharedMemoryExam\Debug\OS_SharedMemoryExam.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OS_SharedMemoryExam\Debug\OS_SharedMemoryExam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OS_SharedMemoryExam\Debug\OS_SharedMemoryExam.lib" /MACHINE:X86 Debug\OS_SharedMemoryExam.obj
+         Debug\stdafx.obj
+         Debug\mmio.obj
+         Debug\FileIoHelper.obj
+         OS_SharedMemoryExam.vcxproj -> D:\OS_SharedMemoryExam\Debug\OS_SharedMemoryExam.exe
+     1>"D:\OS_SharedMemoryExam\OS_SharedMemoryExam\OS_SharedMemoryExam.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.60
